@@ -1,0 +1,1 @@
+export const mainThing = (a: number) => "a main thing, called from " + __dirname + `(${module.id})`;

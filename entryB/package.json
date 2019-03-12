@@ -1,0 +1,7 @@
+{
+  "internal": true,
+  "main": "../dist/es5/entryB.js",
+  "jsnext:main": "../dist/es2015/entryB.js",
+  "module": "../dist/es2015/entryB.js",
+  "types": "../dist/es5/entryB.d.ts"
+}

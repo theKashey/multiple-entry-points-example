@@ -1,0 +1,33 @@
+{
+  "name": "multiple-entry-points",
+  "version": "0.0.1",
+  "description": "example for cjs/es5 multiple entry points",
+  "main": "dist/es5/index.js",
+  "jsnext:main": "dist/es2015/index.js",
+  "module": "dist/es2015/index.js",
+  "types": "dist/es5/index.d.ts",
+  "repository": "https://github.com/theKashey/multiple-entry-points/",
+  "author": "theKashey <thekashey@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "entryA",
+    "entryB"
+  ],
+  "keywords": [
+    "es5",
+    "cjs",
+    "tree shaking",
+    "esmodules"
+  ],
+  "devDependencies": {
+    "ts-react-toolbox": "^0.2.2"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "scripts": {
+    "build": "ts-react-toolbox build",
+    "release": "ts-react-toolbox release"
+  }
+}
