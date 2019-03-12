@@ -1,1 +1,1 @@
-export const thingA = "thing B, called from " + __dirname + `(${module.id})`;
+export const thingA = "thing A, called from " + __dirname + `(${module.id})`;
