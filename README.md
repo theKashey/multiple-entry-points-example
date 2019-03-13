@@ -1,5 +1,8 @@
 multiple-entry-points
 ====
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/theKashey/multiple-entry-points-example.svg)](https://greenkeeper.io/)
+
 Shipping a library? What about tree-shaking - __ship it in es-modules format__!
 
 What about nodejs? __ship it in csj format__!
