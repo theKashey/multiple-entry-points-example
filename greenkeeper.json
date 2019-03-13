@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "entryA/package.json",
+        "entryB/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
